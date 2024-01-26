@@ -40,9 +40,10 @@ li {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  
   }
-  
+  img {
+    display: block;
+  }
  
   /* Header */
  
@@ -321,11 +322,7 @@ url(/images/ofice.jpg);
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-div {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+
 
 .subtitle{
   
