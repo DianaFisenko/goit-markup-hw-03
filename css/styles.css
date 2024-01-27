@@ -201,7 +201,7 @@ url(/images/ofice.jpg);
     margin: auto;
     display: block;
     height: 56px;
-    
+    border: none;
   
 }
 .main-page-btn:hover {
