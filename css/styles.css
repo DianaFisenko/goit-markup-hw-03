@@ -49,7 +49,8 @@ li {
  
   .header {
     border-bottom: 1px solid #e7e9fc;
-    border: none;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
    }
    .div-box {
     display: flex;
