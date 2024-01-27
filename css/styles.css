@@ -201,7 +201,7 @@ url(/images/ofice.jpg);
     margin: auto;
     display: block;
     height: 56px;
-    border: none;
+    
   
 }
 .main-page-btn:hover {
@@ -217,6 +217,9 @@ url(/images/ofice.jpg);
 }
 .text-div{
   background: #FFF;
+  flex-direction: column;
+  display: flex;
+  gap: 8px;
 }
 
 .title-list {
@@ -239,46 +242,41 @@ url(/images/ofice.jpg);
     width: calc((100% - 72px) / 4);
   }
   .main-caption {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-  text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .feature-text {
-  text-align: left;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   flex-direction: column;
-  width: 264px;
-  height: 72px;
   
    }
  /* Heading */
 
   .heading {
     padding: 120px 0;
+    
   }
   .heading-div{
     background: var(--CLOUD, #F4F4FD);
     }
-    
-  .title-team {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.111em;
-    letter-spacing: 0.02em;
+    .list-img {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.111em;
+      letter-spacing: 0.02em;
+      text-align: center;
+    padding-top: 72px;
+    margin-bottom: 72px;
     text-align: center;
-  padding-top: 72px;
-  margin-bottom: 72px;
-  text-align: center;
-}
- 
-.list-row {
+    }
+  
+    .list-row {
   display: flex;
   gap: 24px;
 }
@@ -287,7 +285,11 @@ url(/images/ofice.jpg);
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-
+.row-div {
+  margin-bottom: 8px;
+  padding: 32px 0;
+  text-align: center; 
+  }
 
 .main-subtitle {
   text-align: center;
