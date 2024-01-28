@@ -52,6 +52,7 @@ li {
     margin: 0 auto;
     padding: 0 15px 0 15px;
    }
+   
    .div-box {
     display: flex;
     align-items: center;
@@ -153,7 +154,7 @@ li {
   
   
 /* Main */
-.dark-bg {
+.hero {
   background-color: #2e2f42;
   padding: 188px 0;
   margin: 0 auto;
@@ -166,7 +167,11 @@ li {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
   rgba(46, 47, 66, 0.7)),
 url(/images/ofice.jpg);
-
+}
+.hero-container{
+ 
+  
+    
 }
 
 
@@ -216,12 +221,10 @@ url(/images/ofice.jpg);
   padding: 120px 0;
   
 }
-
 .text-div{
   background: #FFF;
-  
-
 }
+
 
 .title-list {
   position: absolute;
@@ -254,7 +257,7 @@ url(/images/ofice.jpg);
   text-align: left;
     
 }
-.feature-text {
+.feature-text{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -271,7 +274,8 @@ url(/images/ofice.jpg);
   .heading-div{
     background: var(--CLOUD, #F4F4FD);
     }
-    .list-img {
+    
+    .title-team{
       font-size: 36px;
       font-weight: 700;
       line-height: 1.111em;
@@ -331,11 +335,7 @@ url(/images/ofice.jpg);
 .portfolio-li {
   width: calc((100% - 48px) / 3);
 }
-.portfolio-div {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+
 
 
 
