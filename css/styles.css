@@ -211,15 +211,16 @@ url(/images/ofice.jpg);
   background-color: #404BBF;
 }
 /* Text */
-
 .text-container {
+  
   padding: 120px 0;
+  
 }
+
 .text-div{
   background: #FFF;
-  flex-direction: column;
-  display: flex;
-  gap: 8px;
+  
+
 }
 
 .title-list {
@@ -233,20 +234,25 @@ url(/images/ofice.jpg);
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  
   }
   .text-row {
     display: flex;
     gap: 24px;
+    
   }
   .list {
     width: calc((100% - 72px) / 4);
   }
   .main-caption {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: left;
+    
 }
 .feature-text {
   font-size: 16px;
